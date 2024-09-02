@@ -1,0 +1,15 @@
+.header {
+    width: 100dvw;
+    background-color: "#14b8a6";
+    color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 5vw;
+}
+
+.header ul 
+{
+    display: flex;
+    column-gap: 1rem;
+}
+
