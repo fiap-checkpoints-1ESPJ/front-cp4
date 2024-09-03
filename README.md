@@ -9,7 +9,7 @@
     <li>Pedro Henrique Mendes (RM555332)</li>
 </ul>
 
-## Instruções
+## Instruções de uso 💻
 Com o projeto em seu computador, abra ele no terminal GitBash e instale as dependências do projeto a partir do comando 'npm install', depois disso você irá iniciar o servidor de desenvolvimento, isso deve ser feito a partir do comando 'npm run dev' no mesmo terminal, com o servidor iniciado você poderá acessar o site na porta especificada no terminal (Ex: 'http://localhost:3000'), então abra o seu navegador e acesse o endereço da porta para visualizar o site em funcionamento.  
 Nota: O site deve ser aberto através do servidor local para garantir que todas as funcionalidades, como o React Router, funcionem corretamente. Além disso, a execução local proporciona um ambiente seguro e adequado para o desenvolvimento e testes.
 
@@ -32,5 +32,5 @@ Entre as principais dependências temos bibliotecas para construção da interfa
  
 <br>
 
-## Explicando o <a href="https://github.com/Formula-E-Mahindra-Racing/Sprint1-Python/blob/main/helpers.py">Código</a> 🧑‍💻
+## Explicando o <a href="">Código</a> 🧑‍💻
  
