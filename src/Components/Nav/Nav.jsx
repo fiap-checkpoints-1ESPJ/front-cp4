@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './index.css'
 
 import { useState, useEffect } from 'react';
@@ -26,12 +27,12 @@ const Nav = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <a href="#" className="logo">Super<span>Sports</span></a>
+        <a href="#" className="logo">Super<span>Hydrate</span></a>
         <ul className={`nav-links ${isNavActive ? 'nav-active' : ''}`}>
-          <li><a href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${1 / 7 + 0.3}s` : ''}}>Home</a></li>
-          <li><a href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${2 / 7 + 0.3}s` : ''}}>Products</a></li>
-          <li><a href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${3 / 7 + 0.3}s` : ''}}>About</a></li>
-          <li><a href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${4 / 7 + 0.3}s` : ''}}>Contact</a></li>
+          <li><Link href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${1 / 7 + 0.3}s` : ''}}>Home</Link></li>
+          <li><Link href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${2 / 7 + 0.3}s` : ''}}>Products</Link></li>
+          <li><Link href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${3 / 7 + 0.3}s` : ''}}>About</Link></li>
+          <li><Link href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${4 / 7 + 0.3}s` : ''}}>Contact</Link></li>
         </ul>
         <div className={`burger ${isNavActive ? 'toggle' : ''}`} onClick={toggleNav}>
           <div className="line1"></div>
