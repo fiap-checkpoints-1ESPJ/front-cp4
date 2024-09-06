@@ -1,6 +1,7 @@
-footer {
+footer > section:first-child {
     display: flex;
-    padding: 2rem 10rem;
+    flex-wrap: wrap;
+    padding: 2rem 7.5vw;
     border-top: 2px solid gainsboro;
 }
 
@@ -17,12 +18,11 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
-    padding: 0 2rem;
+   padding: 0 2rem;
 }
 
 .footer-section {
     flex: 1;
-    min-width: 200px;
 }
 
 .footer-section h3 {

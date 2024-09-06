@@ -2,8 +2,8 @@ import './index.css'
 
 const Footer = () => {
     return (
-        <>
-            <footer>
+        <footer>
+            <section>
                 <div className="footer-section">
                     <h3>Contact Us</h3>
                     <ul>
@@ -21,11 +21,11 @@ const Footer = () => {
                         <a href="#" aria-label="LinkedIn" title='LinkedIn'>LI</a>
                     </div>
                 </div>
-            </footer>
+            </section>
             <section className="footer-bottom">
                 <p>&copy; 2024 EcoHydrate. All rights reserved.</p>
             </section>
-        </>
+        </footer>
     )
 }
 

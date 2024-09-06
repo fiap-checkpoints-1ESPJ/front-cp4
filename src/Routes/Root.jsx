@@ -5,10 +5,13 @@ import About from '../Pages/About/About'
 import Contact from '../Pages/Contact/Contact'
 import Footer from '../Components/Footer/Footer'
 
+import './index.css'
+import Home from '../Pages/Home/Home'
+
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <div>home</div>
+        element: <Home />
     },
     {
         path: '/about',
@@ -26,10 +29,10 @@ const router = createBrowserRouter([
 
 export default function Root() {
     return (
-        <>
+        <main>
             <Nav />
             <RouterProvider router={router} />
             <Footer />
-        </>
+        </main>
     )
 }

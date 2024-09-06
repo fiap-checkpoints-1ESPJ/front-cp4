@@ -26,7 +26,7 @@ const Nav = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <a href="#" className="logo">Eco<span>Hydrate</span></a>
+        <a href="#" className="logo">Super<span>Sports</span></a>
         <ul className={`nav-links ${isNavActive ? 'nav-active' : ''}`}>
           <li><a href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${1 / 7 + 0.3}s` : ''}}>Home</a></li>
           <li><a href="#" style={{animation: isNavActive ? `navLinkFade 0.5s ease forwards ${2 / 7 + 0.3}s` : ''}}>Products</a></li>
