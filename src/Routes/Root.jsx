@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Nav from '../Components/Nav'
 
 const router = createBrowserRouter([
     {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
 export default function Root() {
     return (
         <>
-            oi
+            <Nav/>
             <RouterProvider router={router}/>
         </>
     )
