@@ -1,0 +1,96 @@
+ .about-section {
+     background-color: #fff;
+     border-radius: 15px;
+     overflow: hidden;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+     display: flex;
+
+     margin: 0rem 5rem;
+ }
+
+ .hero {
+     background-color: #3498db;
+     color: #fff;
+     padding: 4rem 2rem;
+     text-align: center;
+ }
+
+ .hero h2 {
+     font-size: 2.5rem;
+     margin-bottom: 1rem;
+ }
+
+ .hero p {
+     font-size: 1.2rem;
+     max-width: 800px;
+     margin: 0 auto;
+ }
+
+ .content {
+     padding: 2rem;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2rem;
+ }
+
+ .content-section {
+     flex: 1 1 300px;
+ }
+
+ h3 {
+     font-size: 1.5rem;
+     color: #2c3e50;
+     margin-bottom: 1rem;
+ }
+
+ .content-section p {
+     margin-bottom: 1rem;
+ }
+
+ .team {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1rem;
+     justify-content: center;
+ }
+
+ .team-member {
+     text-align: center;
+ }
+
+ .team-member img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-bottom: 0.5rem;
+ }
+
+ .cta-button {
+     display: inline-block;
+     background-color: #3498db;
+     color: #fff;
+     padding: 0.8rem 1.5rem;
+     border-radius: 5px;
+     text-decoration: none;
+     font-weight: 600;
+     transition: background-color 0.3s ease;
+ }
+
+ .cta-button:hover {
+     background-color: #2980b9;
+ }
+
+ @media (max-width: 768px) {
+     .hero {
+         padding: 3rem 1rem;
+     }
+
+     .hero h2 {
+         font-size: 2rem;
+     }
+
+     .content {
+         flex-direction: column;
+     }
+ }
