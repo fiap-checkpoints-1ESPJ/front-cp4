@@ -15,10 +15,10 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Follow Us</h3>
                     <div className="social-links">
-                        <a href="#" aria-label="Facebook">FB</a>
-                        <a href="#" aria-label="Twitter">TW</a>
-                        <a href="#" aria-label="Instagram">IG</a>
-                        <a href="#" aria-label="LinkedIn">LI</a>
+                        <a href="#" aria-label="Facebook" title='Facebook'>FB</a>
+                        <a href="#" aria-label="Twitter" title='Twitter'>TW</a>
+                        <a href="#" aria-label="Instagram" title='Instagram'>IG</a>
+                        <a href="#" aria-label="LinkedIn" title='LinkedIn'>LI</a>
                     </div>
                 </div>
             </footer>
