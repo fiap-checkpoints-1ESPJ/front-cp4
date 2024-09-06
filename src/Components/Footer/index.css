@@ -3,6 +3,7 @@ footer > section:first-child {
     flex-wrap: wrap;
     padding: 2rem 7.5vw;
     border-top: 2px solid gainsboro;
+    margin-top: 5rem;
 }
 
 .footer {

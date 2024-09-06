@@ -3,32 +3,31 @@ import './index.css'
 const products = [
     {
         id: 0,
-        name: 'water bottle',
-        price: 29.99,
-        description: "stay hydrated and eco-conscious with our premium, sustainable water bottle. perfect for everyday use, outdoor adventures, and reducing plastic waste.",
+        name: 'SuperSports Performance Jersey',
+        price: 49.99,
+        description: "Experience ultimate comfort and flexibility with our lightweight, moisture-wicking jersey. Ideal for intense training and competition.",
         image: ''
     },
     {
-        id: 0,
-        name: 'water bottle',
-        price: 29.99,
-        description: "stay hydrated and eco-conscious with our premium, sustainable water bottle. perfect for everyday use, outdoor adventures, and reducing plastic waste.",
+        id: 1,
+        name: 'SuperSports Pro Running Shoes',
+        price: 119.99,
+        description: "Boost your performance with these high-tech running shoes. Engineered for speed, support, and durability on all terrains.",
         image: ''
     },
     {
-        id: 0,
-        name: 'water bottle',
-        price: 29.99,
-        description: "stay hydrated and eco-conscious with our premium, sustainable water bottle. perfect for everyday use, outdoor adventures, and reducing plastic waste.",
+        id: 2,
+        name: 'SuperSports Training Shorts',
+        price: 39.99,
+        description: "Train in style and comfort with our durable, breathable shorts. Built for flexibility and strength during the toughest workouts.",
         image: ''
     },
 ]
 
-
 const Products = () => {
     return (
         <section className="catalog">
-            <h1>Catalog</h1>
+            <h1>SuperSports Gear</h1>
             <section>
                 {!products ? <>No products</> :
                     products.map((p) => (
@@ -51,7 +50,7 @@ const Product = ({ product }) => {
             </div>
             <div className="product-info">
                 <h2>{product.name}</h2>
-                <p className="price">{product.price}</p>
+                <p className="price">${product.price}</p>
                 <p className="description">{product.description}</p>
                 <a href="#" className="cta-button">Add to Cart</a>
             </div>

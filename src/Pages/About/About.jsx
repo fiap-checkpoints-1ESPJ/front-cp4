@@ -5,22 +5,22 @@ const About = () => {
       <section className="about-section">
             <div className="hero">
                 <h2>Our Mission</h2>
-                <p>At EcoHydrate, we're committed to providing sustainable hydration solutions that help reduce plastic waste and promote a healthier planet.</p>
+                <p>At RadicalSports, we{"'"}re driven by a passion for excellence and performance. Our goal is to push the limits of what’s possible in sports, while supporting athletes with cutting-edge gear from our flagship brand, SuperSports.</p>
             </div>
             <div className="content">
                 <div className="content-section">
                     <h3>Our Story</h3>
-                    <p>Founded in 2020, EcoHydrate was born out of a passion for environmental conservation and a desire to make a difference. Our team of eco-enthusiasts came together with a shared vision: to create high-quality, sustainable products that make it easy for people to reduce their plastic footprint.</p>
-                    <p>Starting with our flagship eco-friendly water bottle, we've grown to offer a range of products that combine style, functionality, and sustainability.</p>
+                    <p>Founded in 2015, RadicalSports emerged with the mission to empower athletes at every level. SuperSports, our premier brand, quickly became synonymous with high-quality, performance-driven sports gear designed for endurance and speed.</p>
+                    <p>What began as a small operation creating elite athletic wear has grown into a global brand, trusted by professionals and enthusiasts alike.</p>
                 </div>
                 <div className="content-section">
                     <h3>Our Commitment</h3>
-                    <p>We believe that small changes can make a big impact. That's why we're dedicated to:</p>
+                    <p>We believe in raising the bar for athletic performance, while keeping sustainability in mind. We{"'"}re dedicated to:</p>
                     <ul>
-                        <li>Using 100% recycled materials in our products</li>
-                        <li>Ensuring all our packaging is biodegradable</li>
-                        <li>Partnering with environmental organizations</li>
-                        <li>Educating our community about sustainability</li>
+                        <li>Developing eco-friendly products without compromising quality</li>
+                        <li>Partnering with organizations that promote active and healthy lifestyles</li>
+                        <li>Innovating designs that meet the needs of modern athletes</li>
+                        <li>Providing top-tier gear that athletes can depend on</li>
                     </ul>
                 </div>
                 <div className="content-section">
@@ -34,12 +34,12 @@ const About = () => {
                         <div className="team-member">
                             <img src="/api/placeholder/150/150" alt="John Smith"/>
                             <p>John Smith</p>
-                            <p>Head of Design</p>
+                            <p>Head of Product Development</p>
                         </div>
                         <div className="team-member">
                             <img src="/api/placeholder/150/150" alt="Emily Brown"/>
                             <p>Emily Brown</p>
-                            <p>Sustainability Expert</p>
+                            <p>Lead Performance Engineer</p>
                         </div>
                     </div>
                 </div>
@@ -49,3 +49,4 @@ const About = () => {
 };
 
 export default About;
+
