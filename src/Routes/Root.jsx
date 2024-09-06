@@ -1,8 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Nav from '../Components/Nav'
+import Nav from '../Components/Nav/Nav'
 import Products from '../Pages/Products/Products'
 import About from '../Pages/About/About'
 import Contact from '../Pages/Contact/Contact'
+import Footer from '../Components/Footer/Footer'
 
 const router = createBrowserRouter([
     {
@@ -11,23 +12,24 @@ const router = createBrowserRouter([
     },
     {
         path: '/about',
-        element: <About/>
+        element: <About />
     },
     {
         path: '/products',
-        element: <Products/>
+        element: <Products />
     },
     {
         path: '/contact',
-        element: <Contact/>
+        element: <Contact />
     },
 ])
 
 export default function Root() {
     return (
         <>
-            <Nav/>
-            <RouterProvider router={router}/>
+            <Nav />
+            <RouterProvider router={router} />
+            <Footer />
         </>
     )
 }
