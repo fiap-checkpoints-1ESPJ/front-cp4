@@ -1,96 +1,112 @@
- .about-section {
-     background-color: #fff;
-     border-radius: 15px;
-     overflow: hidden;
-     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-     display: flex;
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-     margin: 0rem 5rem;
- }
+.about-section {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
 
- .hero {
-     background-color: #3498db;
-     color: #fff;
-     padding: 4rem 2rem;
-     text-align: center;
- }
+    margin: 2rem 7vw;
+    flex: 1;
+    max-width: 1800px;
+}
 
- .hero h2 {
-     font-size: 2.5rem;
-     margin-bottom: 1rem;
- }
+.hero {
+    background-color: #3498db;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
 
- .hero p {
-     font-size: 1.2rem;
-     max-width: 800px;
-     margin: 0 auto;
- }
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
 
- .content {
-     padding: 2rem;
-     display: flex;
-     flex-wrap: wrap;
-     gap: 2rem;
- }
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
- .content-section {
-     flex: 1 1 300px;
- }
+.content {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
- h3 {
-     font-size: 1.5rem;
-     color: #2c3e50;
-     margin-bottom: 1rem;
- }
+.content-section {
+    flex: 1 1 300px;
+}
 
- .content-section p {
-     margin-bottom: 1rem;
- }
+h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
 
- .team {
-     display: flex;
-     flex-wrap: wrap;
-     gap: 1rem;
-     justify-content: center;
- }
+.content-section p {
+    margin-bottom: 1rem;
+}
 
- .team-member {
-     text-align: center;
- }
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
 
- .team-member img {
-     width: 150px;
-     height: 150px;
-     border-radius: 50%;
-     object-fit: cover;
-     margin-bottom: 0.5rem;
- }
+.team-member {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
- .cta-button {
-     display: inline-block;
-     background-color: #3498db;
-     color: #fff;
-     padding: 0.8rem 1.5rem;
-     border-radius: 5px;
-     text-decoration: none;
-     font-weight: 600;
-     transition: background-color 0.3s ease;
- }
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
 
- .cta-button:hover {
-     background-color: #2980b9;
- }
+.cta-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
 
- @media (max-width: 768px) {
-     .hero {
-         padding: 3rem 1rem;
-     }
+.cta-button:hover {
+    background-color: #2980b9;
+}
 
-     .hero h2 {
-         font-size: 2rem;
-     }
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+    }
 
-     .content {
-         flex-direction: column;
-     }
- }
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}
