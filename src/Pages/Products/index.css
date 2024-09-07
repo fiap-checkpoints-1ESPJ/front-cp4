@@ -1,19 +1,26 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+ .catalog-wrapper {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+
  .catalog {
      display: flex;
      flex-direction: column;
      row-gap: 1rem;
-     padding: 0 5rem;
+     margin: 2rem 7vw;
+
+     flex: 1;
+     max-width: 1800px;
  }
 
- .catalog > h1 
- {
+ .catalog>h1 {
      text-align: center;
  }
 
- .catalog > section 
- {
+ .catalog>section {
      display: flex;
      flex-direction: column;
      row-gap: 5rem;
@@ -55,7 +62,9 @@
  }
 
  .product-image img {
-     width: 40%;
+     width: 100%;
+     max-width: 500px;
+     margin: auto;
      height: auto;
      object-fit: cover;
      border-radius: 10px;
@@ -122,6 +131,11 @@
 
  @media (max-width: 768px) {
      .product {
+         flex-direction: column;
+     }
+
+
+     .product:nth-child(odd) {
          flex-direction: column;
      }
  }

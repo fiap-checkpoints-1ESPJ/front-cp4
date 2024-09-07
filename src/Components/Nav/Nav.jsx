@@ -22,7 +22,6 @@ const Nav = () => {
 
     const toggleNav = () => {
         setIsNavActive(prev => {
-            window.document.body.style.overflow = prev ? 'auto' : 'hidden'
             return !prev
         });
     };

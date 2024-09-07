@@ -1,5 +1,13 @@
+.home-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .home-section {
-    padding: 2rem 10vw;
+    margin: 2rem 7vw;
+    flex: 1;
+    max-width: 1800px;
 }
 
 .hero {
@@ -7,7 +15,7 @@
     color: white;
     padding: 4rem 1remo;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .hero-content {
@@ -105,4 +113,11 @@ h2 {
 .testimonial-author {
     font-weight: 600;
     margin-top: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .featured-product {
+        flex-direction: column;
+    }
 }

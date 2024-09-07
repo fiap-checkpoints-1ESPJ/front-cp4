@@ -29,17 +29,19 @@ const products = [
 
 const Products = () => {
     return (
-        <section className="catalog">
-            <h1>SuperSports Gear</h1>
-            <section>
-                {!products ? <>No products</> :
-                    products.map((p) => (
-                        <Product
-                            key={p.id}
-                            product={p}
-                        />
-                    ))
-                }
+        <section className='catalog-wrapper'>
+            <section className="catalog">
+                <h1>SuperSports Gear</h1>
+                <section>
+                    {!products ? <>No products</> :
+                        products.map((p) => (
+                            <Product
+                                key={p.id}
+                                product={p}
+                            />
+                        ))
+                    }
+                </section>
             </section>
         </section>
     )
@@ -48,15 +50,15 @@ const Products = () => {
 const Product = ({ product }) => {
     return (
         <section className="product">
-            <div className="product-image">
+            <picture className="product-image">
                 <img src={product.image} alt={`product ${product.id}`} />
-            </div>
-            <div className="product-info">
+            </picture>
+            <article className="product-info">
                 <h2>{product.name}</h2>
                 <p className="price">${product.price}</p>
                 <p className="description">{product.description}</p>
                 <a href="#" className="cta-button">Add to Cart</a>
-            </div>
+            </article>
         </section>
     )
 }
