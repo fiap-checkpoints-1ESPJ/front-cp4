@@ -1,4 +1,5 @@
 import './index.css'
+import sportsGuy from '../../Assets/basket-guy.png'
 
 const Home = () => {
     return (
@@ -34,7 +35,7 @@ const Home = () => {
 
             <section className="featured-product">
                 <div className="product-image">
-                    <img src="/api/placeholder/400/600" alt="Featured SuperSports Gear" />
+                    <img src={sportsGuy} alt="Featured SuperSports Gear" />
                 </div>
                 <div className="product-info">
                     <h2>Our Bestseller: The SuperSports Elite Series</h2>
