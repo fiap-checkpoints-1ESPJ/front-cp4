@@ -1,4 +1,7 @@
 import './index.css'
+import tShirt from '/src/Assets/t-shirt.webp'
+import sportShoes from '/src/Assets/sport-shoes.avif'
+import sportShorts from '/src/Assets/sport-shorts.avif'
 
 const products = [
     {
@@ -6,21 +9,21 @@ const products = [
         name: 'SuperSports Performance Jersey',
         price: 49.99,
         description: "Experience ultimate comfort and flexibility with our lightweight, moisture-wicking jersey. Ideal for intense training and competition.",
-        image: ''
+        image: tShirt
     },
     {
         id: 1,
         name: 'SuperSports Pro Running Shoes',
         price: 119.99,
         description: "Boost your performance with these high-tech running shoes. Engineered for speed, support, and durability on all terrains.",
-        image: ''
+        image: sportShoes
     },
     {
         id: 2,
         name: 'SuperSports Training Shorts',
         price: 39.99,
         description: "Train in style and comfort with our durable, breathable shorts. Built for flexibility and strength during the toughest workouts.",
-        image: ''
+        image: sportShorts
     },
 ]
 
