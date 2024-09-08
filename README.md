@@ -31,6 +31,3 @@ Entre as principais dependências temos bibliotecas para construção da interfa
 </ul>
  
 <br>
-
-## Explicando o <a href="">Código</a> 🧑‍💻
- 
